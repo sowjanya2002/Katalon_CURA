@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240130_192401</name>
+   <tag></tag>
+   <displayName>20240130_192401</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240130_192401/CURA_TestSuites/Cura_TestSuite_LogintoLogout_001/20240130_192402</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/CURA_TestSuiteCollection/CURA_TestSuiteCollection_LogintoLogout_001</testSuiteCollectionId>
+</ReportCollectionEntity>

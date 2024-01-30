@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>TL_TC_Cura_MakeAppointment</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Test Data/Cura_MakeAppointment</source-url>
+   </source-info>
+   <taken-date>2024-01-30T19:33:28.932+05:30</taken-date>
+   <column-names>
+      <column-name>UserName</column-name>
+      <column-name>Password</column-name>
+      <column-name>AppointmentConfirmation</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John Doe",
+      "checked": false
+    },
+    {
+      "value": "ThisIsNotAPassword",
+      "checked": false
+    },
+    {
+      "value": "Appointment Confirmation",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
