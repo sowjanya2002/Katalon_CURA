@@ -6,7 +6,7 @@
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>aba4faeb-136b-4093-9884-7517267018bc</dataFileGUID>
+   <dataFileGUID>b729925b-3538-465a-8fd8-f722b2b3299d</dataFileGUID>
    <dataSourceUrl>C:\Users\sasi\Documents\CURA\TestData_CURA_Login.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>

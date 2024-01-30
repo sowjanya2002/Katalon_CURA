@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.openBrowser('')
+
+//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+//WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/a_Make Appointment'))
+
+//WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/input_form-control'))
+
+//WebUI.setText(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/input_username'), UserName)
+
+//WebUI.setText(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/input_password'), Password)
+
+//WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/button_Login'))
+WebUI.callTestCase(findTestCase('Test Cases/TC_CURA_Login_001'), [('UserName') : 'John Doe', ('Password') : 'ThisIsNotAPassword'],
+	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/input_programs'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/td_18'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/i_fa fa-bars'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/a_History'))
+
+WebUI.click(findTestObject('Object Repository/Cura_MakeAppointment/Page_CURA Healthcare Service/a_Go to Homepage'))
+
+WebUI.closeBrowser()
+

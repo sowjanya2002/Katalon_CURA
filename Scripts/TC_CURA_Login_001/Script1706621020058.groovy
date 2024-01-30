@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Cura Pages/CURA_Logout/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_username'), 
-    UserName)
+WebUI.setText(findTestObject('Object Repository/Cura Pages/CURA_Logout/Page_CURA Healthcare Service/input_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/input_password'), 
-    Password)
+WebUI.setText(findTestObject('Object Repository/Cura Pages/CURA_Logout/Page_CURA Healthcare Service/input_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Object Repository/Cura Pages/CuraPage_Login_OR/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Cura Pages/CURA_Logout/Page_CURA Healthcare Service/button_Login'))
 
