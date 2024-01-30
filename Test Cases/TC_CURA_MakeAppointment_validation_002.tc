@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CURA_MakeAppointment_validation_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a3ff5a2-70de-45c6-abb0-7ec8f5d9b8dc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57f95f8b-cc5e-47a6-8234-a05efee9dbc4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94f96f42-b76a-4c9f-8198-ace9e475ccd4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57f95f8b-cc5e-47a6-8234-a05efee9dbc4</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94f96f42-b76a-4c9f-8198-ace9e475ccd4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
